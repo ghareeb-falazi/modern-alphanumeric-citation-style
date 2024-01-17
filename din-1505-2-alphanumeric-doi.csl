@@ -339,7 +339,7 @@
           <text prefix=", " macro="pages"/>
           <text prefix=". &#8212;&#160;" variable="note"/>
           <text prefix=" &#8212;&#160;ISBN&#160;" variable="ISBN"/>
-          <text prefix=" &#8212;&#160;DOI&#160;" variable="DOI"/>
+          <text prefix=" &#8212;&#160;DOI:&#160;" variable="DOI"/>
         </else-if>
         <!-- keiner der oben genannten fälle -->
         <else>
