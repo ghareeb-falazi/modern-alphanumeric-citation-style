@@ -295,7 +295,7 @@
             " (2. Gesamttitel mit Zählung)" -->
           <text prefix=". &#8212;&#160;" variable="note"/>
           <text prefix=" &#8212;&#160;ISBN&#160;" variable="ISBN"/>
-          <text prefix=" &#8212;&#160;DOI&#160;" variable="DOI"/>
+          <text prefix=" &#8212;&#160;DOI:&#160;" variable="DOI"/>
           <text prefix=", " macro="pages"/>
         </else-if>
         <!-- Tabelle 5 aus litverz.ps - Hochschulschriften
