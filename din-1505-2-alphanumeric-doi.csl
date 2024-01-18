@@ -145,7 +145,7 @@
         <text variable="title" font-style="italic"/>
       </else-if>
       <else>
-        <text variable="title"/>
+        <text variable="title" font-style="bold"/>
       </else>
     </choose>
   </macro>
@@ -320,7 +320,7 @@
         <!-- Tabelle 2 aus litverz.ps UND -->
         <!-- Tabelle 4 aus litverz.ps - Schriften von Tagungen, Konferenzen, Symposien, ...-->
         <else-if type="article article-journal article-magazine article-newspaper" match="any">
-          <text prefix=" " variable="title"/>
+          <text prefix=" " macro="title" />
           <!-- " : Zusatz zum Sachtitel"
             ". Angabe des Teils"
             " (Gesamttitelangabe)" -->
@@ -354,6 +354,7 @@
               <text variable="volume" font-style="italic"/>
               <text variable="issue" prefix="(" suffix=")"/>
             </group>
+            <text prefix=" &#8212;&#160;DOI:&#160;" variable="DOI"/>
             <text prefix=", " macro="pages"/>
           </group>
         </else>
